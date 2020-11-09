@@ -1,0 +1,270 @@
+Script started on 2020-11-09 00:54:11+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="150" LINES="46"]
+]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ clear
+[H[2J[3J]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ sudo u[Kapt update
+[sudo] password for bishoy: 
+[33m0% [Working][0m            Hit:1 http://eg.archive.ubuntu.com/ubuntu focal InRelease
+[33m0% [Connecting to security.ubuntu.com (91.189.88.142)] [Connected to download.docker.com (13.226.173.44)][0m                                                                                                         Hit:2 http://eg.archive.ubuntu.com/ubuntu focal-updates InRelease
+[33m                                                                                                         0% [Waiting for headers] [Waiting for headers][0m                                              Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:4 https://download.docker.com/linux/ubuntu focal InRelease [36.2 kB]
+[33m0% [Waiting for headers] [4 InRelease 15.9 kB/36.2 kB 44%][0m[33m                                                          0% [Waiting for headers][0m                        Hit:5 http://eg.archive.ubuntu.com/ubuntu focal-backports InRelease
+[33m                        0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m100% [Working][0m              Fetched 36.2 kB in 1s (27.3 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 9%Reading package lists... 9%Reading package lists... 25%Reading package lists... 43%Reading package lists... 43%Reading package lists... 49%Reading package lists... 60%Reading package lists... 60%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 84%Reading package lists... 84%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 85%Reading package lists... 88%Reading package lists... 88%Reading package lists... 90%Reading package lists... 90%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 91%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 96%Reading package lists... 96%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+73 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ clear
+[H[2J[3J]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ pt[Kython3 --version
+Python 3.8.5
+]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ python3
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pi[Krint()")")H")e")l")l")o") ")W")o")r")l")d")
+Hello World
+>>> print(([K)1)0) )+) )2)0)
+30
+>>> Test = 10
+>>> Wold = 100
+>>> Test [K[K[K[K[Kprint()T)e)s)t) )9)[1P)+) )W)o)l)d)
+110
+>>> rx[K[Kexit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> exit()
+]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ clear
+[H[2J[3J]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ pph[K[Khp a[K--version
+
+Command 'php' not found, but can be installed with:
+
+sudo apt install php7.4-cli
+
+]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ sudo apt insta[Kall php
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libfprint-2-tod1 libllvm9
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapache2-mod-php7.4 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0
+  php-common php7.4 php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom php-pear
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapache2-mod-php7.4 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 php
+  php-common php7.4 php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline
+0 upgraded, 18 newly installed, 0 to remove and 73 not upgraded.
+Need to get 5,838 kB of archives.
+After this operation, 25.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m0% [Waiting for headers][0m                        Get:1 http://eg.archive.ubuntu.com/ubuntu focal/main amd64 libapr1 amd64 1.6.5-1ubuntu1 [91.4 kB]
+[33m0% [1 libapr1 15.3 kB/91.4 kB 17%][0m[33m                                  2% [Working][0m            Get:2 http://eg.archive.ubuntu.com/ubuntu focal/main amd64 libaprutil1 amd64 1.6.1-4ubuntu2 [84.7 kB]
+[33m3% [2 libaprutil1 40.9 kB/84.7 kB 48%][0m[33m                                      5% [Waiting for headers][0m                        Get:3 http://eg.archive.ubuntu.com/ubuntu focal/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-4ubuntu2 [10.5 kB]
+[33m5% [3 libaprutil1-dbd-sqlite3 10.5 kB/10.5 kB 100%][0m[33m                                                   6% [Working][0m            Get:4 http://eg.archive.ubuntu.com/ubuntu focal/main amd64 libaprutil1-ldap amd64 1.6.1-4ubuntu2 [8,736 B]
+[33m6% [4 libaprutil1-ldap 8,736 B/8,736 B 100%][0m[33m                                            7% [Working][0m            Get:5 http://eg.archive.ubuntu.com/ubuntu focal/main amd64 liblua5.2-0 amd64 5.2.4-1.1build3 [106 kB]
+[33m7% [5 liblua5.2-0 12.3 kB/106 kB 12%][0m[33m                                     10% [Waiting for headers][0m                         Get:6 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-bin amd64 2.4.41-4ubuntu3.1 [1,180 kB]
+[33m10% [6 apache2-bin 12.3 kB/1,180 kB 1%][0m[33m16% [6 apache2-bin 467 kB/1,180 kB 40%][0m[33m24% [6 apache2-bin 1,020 kB/1,180 kB 86%][0m[33m                                         27% [Waiting for headers][0m                         Get:7 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-data all 2.4.41-4ubuntu3.1 [158 kB]
+[33m27% [7 apache2-data 0 B/158 kB 0%][0m[33m                                  30% [Waiting for headers][0m                         Get:8 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2-utils amd64 2.4.41-4ubuntu3.1 [83.8 kB]
+[33m30% [8 apache2-utils 4,096 B/83.8 kB 5%][0m[33m                                        33% [Waiting for headers][0m                         Get:9 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 apache2 amd64 2.4.41-4ubuntu3.1 [95.5 kB]
+[33m33% [9 apache2 16.4 kB/95.5 kB 17%][0m[33m                                   35% [Waiting for headers][0m                         Get:10 http://eg.archive.ubuntu.com/ubuntu focal/main amd64 php-common all 2:75 [11.9 kB]
+[33m35% [10 php-common 11.9 kB/11.9 kB 100%][0m[33m                                        36% [Waiting for headers][0m[33m36% [Waiting for headers][0m[33m36% [Waiting for headers][0m                         Get:11 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-common amd64 7.4.3-4ubuntu2.4 [979 kB]
+[33m37% [11 php7.4-common 32.8 kB/979 kB 3%][0m[33m                                        51% [Waiting for headers][0m                         Get:12 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-json amd64 7.4.3-4ubuntu2.4 [19.2 kB]
+[33m51% [12 php7.4-json 19.2 kB/19.2 kB 100%][0m[33m                                         52% [Waiting for headers][0m                         Get:13 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-opcache amd64 7.4.3-4ubuntu2.4 [198 kB]
+[33m52% [13 php7.4-opcache 28.7 kB/198 kB 14%][0m[33m                                          56% [Waiting for headers][0m                         Get:14 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-readline amd64 7.4.3-4ubuntu2.4 [12.6 kB]
+[33m56% [14 php7.4-readline 12.6 kB/12.6 kB 100%][0m[33m                                             57% [Waiting for headers][0m                         Get:15 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4-cli amd64 7.4.3-4ubuntu2.4 [1,422 kB]
+[33m58% [15 php7.4-cli 28.7 kB/1,422 kB 2%][0m[33m67% [15 php7.4-cli 712 kB/1,422 kB 50%][0m[33m74% [15 php7.4-cli 1,202 kB/1,422 kB 85%]                                                                                                 663 kB/s 2s[0m[33m78% [Waiting for headers]                                                                                                                 663 kB/s 2s[0m                                                                                                                                                     Get:16 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 libapache2-mod-php7.4 amd64 7.4.3-4ubuntu2.4 [1,364 kB]
+[33m79% [16 libapache2-mod-php7.4 55.6 kB/1,364 kB 4%]                                                                                        663 kB/s 1s[0m[33m85% [16 libapache2-mod-php7.4 547 kB/1,364 kB 40%]                                                                                        663 kB/s 1s[0m[33m92% [16 libapache2-mod-php7.4 1,038 kB/1,364 kB 76%]                                                                                      663 kB/s 0s[0m[33m98% [Waiting for headers]                                                                                                                 663 kB/s 0s[0m                                                                                                                                                     Get:17 http://eg.archive.ubuntu.com/ubuntu focal-updates/main amd64 php7.4 all 7.4.3-4ubuntu2.4 [9,248 B]
+[33m98% [17 php7.4 9,248 B/9,248 B 100%]                                                                                                      663 kB/s 0s[0m[33m99% [Working]                                                                                                                             663 kB/s 0s[0m                                                                                                                                                     Get:18 http://eg.archive.ubuntu.com/ubuntu focal/main amd64 php all 2:7.4+75 [2,712 B]
+[33m99% [18 php 2,712 B/2,712 B 100%]                                                                                                         663 kB/s 0s[0m[33m100% [Working]                                                                                                                            663 kB/s 0s[0m                                                                                                                                                     Fetched 5,838 kB in 8s (718 kB/s)
+
+7[0;45r8[1ASelecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 207782 files and directories currently installed.)
+Preparing to unpack .../00-libapr1_1.6.5-1ubuntu1_amd64.deb ...
+7[46;0f[42m[30mProgress: [  0%][49m[39m [................................................................................................................................] 87[46;0f[42m[30mProgress: [  1%][49m[39m [#...............................................................................................................................] 8Unpacking libapr1:amd64 (1.6.5-1ubuntu1) ...
+7[46;0f[42m[30mProgress: [  3%][49m[39m [###.............................................................................................................................] 8Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../01-libaprutil1_1.6.1-4ubuntu2_amd64.deb ...
+7[46;0f[42m[30mProgress: [  4%][49m[39m [#####...........................................................................................................................] 8Unpacking libaprutil1:amd64 (1.6.1-4ubuntu2) ...
+7[46;0f[42m[30mProgress: [  5%][49m[39m [#######.........................................................................................................................] 8Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../02-libaprutil1-dbd-sqlite3_1.6.1-4ubuntu2_amd64.deb ...
+7[46;0f[42m[30mProgress: [  7%][49m[39m [########........................................................................................................................] 8Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-4ubuntu2) ...
+7[46;0f[42m[30mProgress: [  8%][49m[39m [##########......................................................................................................................] 8Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../03-libaprutil1-ldap_1.6.1-4ubuntu2_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 10%][49m[39m [############....................................................................................................................] 8Unpacking libaprutil1-ldap:amd64 (1.6.1-4ubuntu2) ...
+7[46;0f[42m[30mProgress: [ 11%][49m[39m [##############..................................................................................................................] 8Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../04-liblua5.2-0_5.2.4-1.1build3_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 12%][49m[39m [###############.................................................................................................................] 8Unpacking liblua5.2-0:amd64 (5.2.4-1.1build3) ...
+7[46;0f[42m[30mProgress: [ 14%][49m[39m [#################...............................................................................................................] 8Selecting previously unselected package apache2-bin.
+Preparing to unpack .../05-apache2-bin_2.4.41-4ubuntu3.1_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 15%][49m[39m [###################.............................................................................................................] 8Unpacking apache2-bin (2.4.41-4ubuntu3.1) ...
+7[46;0f[42m[30mProgress: [ 16%][49m[39m [#####################...........................................................................................................] 8Selecting previously unselected package apache2-data.
+Preparing to unpack .../06-apache2-data_2.4.41-4ubuntu3.1_all.deb ...
+7[46;0f[42m[30mProgress: [ 18%][49m[39m [######################..........................................................................................................] 8Unpacking apache2-data (2.4.41-4ubuntu3.1) ...
+7[46;0f[42m[30mProgress: [ 19%][49m[39m [########################........................................................................................................] 8Selecting previously unselected package apache2-utils.
+Preparing to unpack .../07-apache2-utils_2.4.41-4ubuntu3.1_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 21%][49m[39m [##########################......................................................................................................] 8Unpacking apache2-utils (2.4.41-4ubuntu3.1) ...
+7[46;0f[42m[30mProgress: [ 22%][49m[39m [############################....................................................................................................] 8Selecting previously unselected package apache2.
+Preparing to unpack .../08-apache2_2.4.41-4ubuntu3.1_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 23%][49m[39m [#############################...................................................................................................] 8Unpacking apache2 (2.4.41-4ubuntu3.1) ...
+7[46;0f[42m[30mProgress: [ 25%][49m[39m [###############################.................................................................................................] 8Selecting previously unselected package php-common.
+Preparing to unpack .../09-php-common_2%3a75_all.deb ...
+7[46;0f[42m[30mProgress: [ 26%][49m[39m [#################################...............................................................................................] 8Unpacking php-common (2:75) ...
+7[46;0f[42m[30mProgress: [ 27%][49m[39m [###################################.............................................................................................] 8Selecting previously unselected package php7.4-common.
+Preparing to unpack .../10-php7.4-common_7.4.3-4ubuntu2.4_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 29%][49m[39m [####################################............................................................................................] 8Unpacking php7.4-common (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 30%][49m[39m [######################################..........................................................................................] 8Selecting previously unselected package php7.4-json.
+Preparing to unpack .../11-php7.4-json_7.4.3-4ubuntu2.4_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 32%][49m[39m [########################################........................................................................................] 8Unpacking php7.4-json (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 33%][49m[39m [##########################################......................................................................................] 8Selecting previously unselected package php7.4-opcache.
+Preparing to unpack .../12-php7.4-opcache_7.4.3-4ubuntu2.4_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 34%][49m[39m [###########################################.....................................................................................] 8Unpacking php7.4-opcache (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 36%][49m[39m [#############################################...................................................................................] 8Selecting previously unselected package php7.4-readline.
+Preparing to unpack .../13-php7.4-readline_7.4.3-4ubuntu2.4_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 37%][49m[39m [###############################################.................................................................................] 8Unpacking php7.4-readline (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 38%][49m[39m [#################################################...............................................................................] 8Selecting previously unselected package php7.4-cli.
+Preparing to unpack .../14-php7.4-cli_7.4.3-4ubuntu2.4_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 40%][49m[39m [##################################################..............................................................................] 8Unpacking php7.4-cli (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 41%][49m[39m [####################################################............................................................................] 8Selecting previously unselected package libapache2-mod-php7.4.
+Preparing to unpack .../15-libapache2-mod-php7.4_7.4.3-4ubuntu2.4_amd64.deb ...
+7[46;0f[42m[30mProgress: [ 42%][49m[39m [######################################################..........................................................................] 8Unpacking libapache2-mod-php7.4 (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 44%][49m[39m [########################################################........................................................................] 8Selecting previously unselected package php7.4.
+Preparing to unpack .../16-php7.4_7.4.3-4ubuntu2.4_all.deb ...
+7[46;0f[42m[30mProgress: [ 45%][49m[39m [#########################################################.......................................................................] 8Unpacking php7.4 (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 47%][49m[39m [###########################################################.....................................................................] 8Selecting previously unselected package php.
+Preparing to unpack .../17-php_2%3a7.4+75_all.deb ...
+7[46;0f[42m[30mProgress: [ 48%][49m[39m [#############################################################...................................................................] 8Unpacking php (2:7.4+75) ...
+7[46;0f[42m[30mProgress: [ 49%][49m[39m [###############################################################.................................................................] 8Setting up php-common (2:75) ...
+7[46;0f[42m[30mProgress: [ 51%][49m[39m [################################################################................................................................] 8Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+7[46;0f[42m[30mProgress: [ 52%][49m[39m [##################################################################..............................................................] 8Setting up php7.4-common (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 53%][49m[39m [####################################################################............................................................] 8
+Creating config file /etc/php/7.4/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ffi.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.4/mods-available/tokenizer.ini with new version
+7[46;0f[42m[30mProgress: [ 55%][49m[39m [######################################################################..........................................................] 8Setting up libapr1:amd64 (1.6.5-1ubuntu1) ...
+7[46;0f[42m[30mProgress: [ 56%][49m[39m [#######################################################################.........................................................] 87[46;0f[42m[30mProgress: [ 58%][49m[39m [#########################################################################.......................................................] 8Setting up php7.4-readline (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 59%][49m[39m [###########################################################################.....................................................] 8
+Creating config file /etc/php/7.4/mods-available/readline.ini with new version
+7[46;0f[42m[30mProgress: [ 60%][49m[39m [#############################################################################...................................................] 8Setting up liblua5.2-0:amd64 (5.2.4-1.1build3) ...
+7[46;0f[42m[30mProgress: [ 62%][49m[39m [##############################################################################..................................................] 87[46;0f[42m[30mProgress: [ 63%][49m[39m [################################################################################................................................] 8Setting up php7.4-opcache (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 64%][49m[39m [##################################################################################..............................................] 8
+Creating config file /etc/php/7.4/mods-available/opcache.ini with new version
+7[46;0f[42m[30mProgress: [ 66%][49m[39m [####################################################################################............................................] 8Setting up apache2-data (2.4.41-4ubuntu3.1) ...
+7[46;0f[42m[30mProgress: [ 67%][49m[39m [#####################################################################################...........................................] 87[46;0f[42m[30mProgress: [ 68%][49m[39m [#######################################################################################.........................................] 8Setting up libaprutil1:amd64 (1.6.1-4ubuntu2) ...
+7[46;0f[42m[30mProgress: [ 70%][49m[39m [#########################################################################################.......................................] 87[46;0f[42m[30mProgress: [ 71%][49m[39m [###########################################################################################.....................................] 8Setting up php7.4-json (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 73%][49m[39m [############################################################################################....................................] 8
+Creating config file /etc/php/7.4/mods-available/json.ini with new version
+7[46;0f[42m[30mProgress: [ 74%][49m[39m [##############################################################################################..................................] 8Setting up php7.4-cli (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 75%][49m[39m [################################################################################################................................] 8update-alternatives: using /usr/bin/php7.4 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.4 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.4 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.4/cli/php.ini with new version
+7[46;0f[42m[30mProgress: [ 77%][49m[39m [##################################################################################################..............................] 8Setting up libaprutil1-ldap:amd64 (1.6.1-4ubuntu2) ...
+7[46;0f[42m[30mProgress: [ 77%][49m[39m [##################################################################################################..............................] 8Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-4ubuntu2) ...
+7[46;0f[42m[30mProgress: [ 79%][49m[39m [####################################################################################################............................] 87[46;0f[42m[30mProgress: [ 80%][49m[39m [######################################################################################################..........................] 8Setting up apache2-utils (2.4.41-4ubuntu3.1) ...
+7[46;0f[42m[30mProgress: [ 81%][49m[39m [########################################################################################################........................] 87[46;0f[42m[30mProgress: [ 83%][49m[39m [#########################################################################################################.......................] 8Setting up apache2-bin (2.4.41-4ubuntu3.1) ...
+7[46;0f[42m[30mProgress: [ 84%][49m[39m [###########################################################################################################.....................] 87[46;0f[42m[30mProgress: [ 85%][49m[39m [#############################################################################################################...................] 8Setting up libapache2-mod-php7.4 (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 87%][49m[39m [##############################################################################################################..................] 8Package apache2 is not configured yet. Will defer actions by package libapache2-mod-php7.4.
+
+Creating config file /etc/php/7.4/apache2/php.ini with new version
+No module matches 
+7[46;0f[42m[30mProgress: [ 88%][49m[39m [################################################################################################################................] 8Setting up apache2 (2.4.41-4ubuntu3.1) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+info: Switch to mpm prefork for package libapache2-mod-php7.4
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+info: Executing deferred 'a2enmod php7.4' for package libapache2-mod-php7.4
+Enabling module php7.4.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Job for apache2.service failed because the control process exited with error code.
+See "systemctl status apache2.service" and "journalctl -xe" for details.
+invoke-rc.d: initscript apache2, action "start" failed.
+[0;1;31m●[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (]8;;file://bishoy-VirtualBox/lib/systemd/system/apache2.service/lib/systemd/system/apache2.service]8;;; enabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Mon 2020-11-09 00:56:16 EET; 16ms ago
+       Docs: ]8;;https://httpd.apache.org/docs/2.4/https://httpd.apache.org/docs/2.4/]8;;
+    Process: 11133 ExecStart=/usr/sbin/apachectl start [0;1;31m(code=exited, status=1/FAILURE)[0m
+
+نوف 09 00:56:16 bishoy-VirtualBox apachectl[11138]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+نوف 09 00:56:16 bishoy-VirtualBox apachectl[11138]: (98)Address already in use: AH00072: make_sock: could not bind to address [::]:80
+نوف 09 00:56:16 bishoy-VirtualBox apachectl[11138]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80
+نوف 09 00:56:16 bishoy-VirtualBox apachectl[11138]: no listening sockets available, shutting down
+نوف 09 00:56:16 bishoy-VirtualBox apachectl[11138]: AH00015: Unable to open logs
+نوف 09 00:56:16 bishoy-VirtualBox apachectl[11133]: Action 'start' failed.
+نوف 09 00:56:16 bishoy-VirtualBox apachectl[11133]: The Apache error log may have more information.
+نوف 09 00:56:16 bishoy-VirtualBox systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Control process exited, code=exited, status=1/FAILURE[0m
+نوف 09 00:56:16 bishoy-VirtualBox systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Failed with result 'exit-code'.[0m
+نوف 09 00:56:16 bishoy-VirtualBox systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start The Apache HTTP Server.[0m
+Setting up php7.4 (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 90%][49m[39m [##################################################################################################################..............] 87[46;0f[42m[30mProgress: [ 91%][49m[39m [####################################################################################################################............] 8Setting up php (2:7.4+75) ...
+7[46;0f[42m[30mProgress: [ 92%][49m[39m [######################################################################################################################..........] 87[46;0f[42m[30mProgress: [ 94%][49m[39m [#######################################################################################################################.........] 8Processing triggers for ufw (0.36-6) ...
+Processing triggers for systemd (245.4-4ubuntu3.2) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.1) ...
+Processing triggers for php7.4-cli (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 95%][49m[39m [#########################################################################################################################.......] 87[46;0f[42m[30mProgress: [ 96%][49m[39m [###########################################################################################################################.....] 8Processing triggers for libapache2-mod-php7.4 (7.4.3-4ubuntu2.4) ...
+7[46;0f[42m[30mProgress: [ 97%][49m[39m [############################################################################################################################....] 87[46;0f[42m[30mProgress: [ 99%][49m[39m [##############################################################################################################################..] 8
+7[0;46r8[1A[J]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ clear
+[H[2J[3J]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ php-[K --version
+PHP 7.4.3 (cli) (built: Oct  6 2020 15:47:56) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v3.4.0, Copyright (c) Zend Technologies
+    with Zend OPcache v7.4.3, Copyright (c), by Zend Technologies
+]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ clear
+[H[2J[3J]0;bishoy@bishoy-VirtualBox: ~[01;32mbishoy@bishoy-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-11-09 00:56:44+02:00 [COMMAND_EXIT_CODE="0"]
