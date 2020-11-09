@@ -31,6 +31,7 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
+    "demo": "vue-cli-service build",
     "build": "rm -rf dist/* & rollup --config build/rollup.config.js",
     "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vuejs-terminal-player.umd.js",
     "build:es": "rollup --config build/rollup.config.js --format es --file dist/vuejs-terminal-player.esm.js",
