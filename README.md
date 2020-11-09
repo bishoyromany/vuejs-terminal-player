@@ -16,7 +16,7 @@ A Terminal Player Vue component. Compatible with Vue 2.x
 ## Demo
 
 To view a demo online:
-https://bishoyromany.github.io/vuejs-terminal-player/demo
+https://vuejs-terminal-player.vercel.app
 
 <!-- To view demo locally clone the repo and run `npm install && npm run serve` -->
 
