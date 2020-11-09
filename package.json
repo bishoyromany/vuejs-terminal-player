@@ -1,7 +1,7 @@
 {
   "name": "vuejs-terminal-player",
   "author": "Bishoy Romany",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple Vue.js terminal-player component. Supports playing terminal record text files as a video player, with powerful options",
   "license": "MIT",
   "main": "dist/vuejs-terminal-player.js",
